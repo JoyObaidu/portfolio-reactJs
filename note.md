@@ -25,7 +25,6 @@
 - Live URL : https://joyobaidu.github.io/Portfolio-ReactJS/
 - Repo URL : 
 
-## Screenshots
-- Mobile view - 
-- Desktop view -
+## Screenshot
+- ![alt text](image.png)
 
