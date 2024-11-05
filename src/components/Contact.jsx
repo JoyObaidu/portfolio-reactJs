@@ -1,4 +1,3 @@
-import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import {faPhone } from '@fortawesome/free-solid-svg-icons'
@@ -30,23 +29,47 @@ const Contact = () => {
        </div>
 
        <div className="flex-1 w-full">
-            <form className="space-y-4">
-                <div>
-                    <label htmlFor="name">Your Name</label>
-                    <input type="text" name="" id="" className="w-full p-2 rounded bg-gray-600 focus:outline-none focus:border-green-400" placeholder="Enter Your Name" />
-                </div>
+       <form className="space-y-4">
+    <div>
+        <label htmlFor="name">Your Name</label>
+        <input 
+            type="text" 
+            name="name" 
+            id="name" 
+            className="w-full p-2 rounded bg-gray-600 focus:outline-none focus:border-green-400" 
+            placeholder="Enter Your Name" 
+        />
+    </div>
 
-                <div>
-                    <label htmlFor="name">Email Address</label>
-                    <input type="email" name="" id="" className="w-full p-2 rounded bg-gray-600 focus:outline-none focus:border-green-400" placeholder="Enter Your Email" />
-                </div>
+    <div>
+        <label htmlFor="email">Email Address</label>
+        <input 
+            type="email" 
+            name="email" 
+            id="email" 
+            className="w-full p-2 rounded bg-gray-600 focus:outline-none focus:border-green-400" 
+            placeholder="Enter Your Email" 
+        />
+    </div>
 
-                <div>
-                    <label htmlFor="name">Message</label>
-                   <textarea name="" id="" className="w-full p-2 rounded bg-gray-600 focus:outline-none focus:border-green-400" placeholder="Enter Your message"></textarea>
-                </div>
-                <button className='bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full' type="submit">Send</button>
-            </form>
+    <div>
+        <label htmlFor="message">Message</label>
+        <textarea 
+            name="message" 
+            id="message" 
+            className="w-full p-2 rounded bg-gray-600 focus:outline-none focus:border-green-400" 
+            placeholder="Enter Your message"
+        ></textarea>
+    </div>
+
+    <button 
+        className='bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full' 
+        type="submit"
+    >
+        Send
+    </button>
+</form>
+
         </div>
        </div>
   </div>

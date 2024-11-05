@@ -1,4 +1,3 @@
-import React from 'react'
 import omeletteRecipe from '../assets/omeletteRecipe.jpeg'
 import sociallinkImage from '../assets/sociallinkImage.jpeg'
 import testimonialImage from '../assets/testimonialImage.jpeg'
