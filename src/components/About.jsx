@@ -24,14 +24,14 @@ const About = () => {
                     <div className='flex items-center space-x-4'>
                         <label className='w-20 text-left'>HTML</label>
                         <div className="flex-grow bg-gray-800 rounded-full h-2.5">
-                            <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full w-10/12'></div>
+                            <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full w-11/12'></div>
                         </div>
                     </div>
 
                     <div className='flex items-center space-x-4'>
                         <label className='w-20 text-left'>CSS</label>
                         <div className="flex-grow bg-gray-800 rounded-full h-2.5">
-                            <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full w-10/12'></div>
+                            <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full w-11/12'></div>
                         </div>
                     </div>
 
@@ -41,22 +41,29 @@ const About = () => {
                             <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full w-9/12'></div>
                         </div>
                     </div>
+
+                    <div className='flex items-center space-x-4'>
+                        <label className='w-20 text-left'>Tailwind CSS</label>
+                        <div className="flex-grow bg-gray-800 rounded-full h-2.5">
+                            <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full w-9/12'></div>
+                        </div>
+                    </div>
                 </div>
                 
                 {/* Stats section */}
                 <div className='flex justify-between text-center mt-6'>
                     <div>
-                        <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>3+</h3>
+                        <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>2+</h3>
                         <p>Years Experience</p>
                     </div>
                     <div>
-                        <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>50+</h3>
+                        <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>20+</h3>
                         <p>Projects Completed</p>
                     </div>
-                    <div>
+                    {/* <div>
                         <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>10+</h3>
                         <p>Happy Clients</p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

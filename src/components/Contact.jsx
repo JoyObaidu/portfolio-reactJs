@@ -23,7 +23,7 @@ const Contact = () => {
         </div>
         <div className="mb-4 mt-8">
        <FontAwesomeIcon icon={faMapMarkedAlt} className="inline-block text-green-400 mr-2"/>
-        <span>street, city, province, country</span>
+        <span>Ado-Ota, Ota,Ogun State, Nigeria</span>
         </div>
         
        </div>

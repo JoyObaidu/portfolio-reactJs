@@ -19,18 +19,21 @@ const Footer = () => {
   <button type="submit" className="bg-gradient-to-r from-green-400 to-blue-500 text-white md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2">Subscribe</button>
   </form>
     </div>
-<hr className="text-white"/>
+
+<hr className="text-white mt-6"/>
   
 </div>
           
             </div>
-            <div className="flex flex-col md:flex-row md:space-x-12 mb-4 px-2 bg-gray-400">
+
+
+            <div className="flex flex-col gap-4 md:flex-row md:space-x-12 mb-4 px-2 bg-gray-400 p-8">
            <div className="mt-2 flex-1">
         <p>
             &copy; {new Date().getFullYear()} Joy. All rights reserved.
         </p>
     </div>
-    <div className="flex-1 space-x-2">
+    <div className="flex-1 space-x-4">
          <a href="https://facebook.com" className="text-gray-200  hover:text-white" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faFacebook} size="2x"/>
       </a>
