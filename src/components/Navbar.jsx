@@ -9,11 +9,10 @@ const Navbar = () => {
                 <a href="#home" className='text-sm md:text-lg  text-white hover:text-gray-400'>Home</a>
                 <a href="#aboutme" className='text-sm md:text-lg text-white hover:text-gray-400'>About Me</a>
                 <a href="#project" className='text-sm md:text-lg text-white hover:text-gray-400'>Projects</a>
-                <a href="#services" className='text-sm md:text-lg text-white hover:text-gray-400'>Services</a>
                 <a href="#contact" className='text-sm md:text-lg text-white hover:text-gray-400'>Contacts</a>
             </div>
             <button className='bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full' type="submit">
-              <a href="https://www.linkedin.com/in/joy-obaidu/" className="text-white hover:text-gray-400">Connect Me</a>
+              <a href="https://www.linkedin.com/in/joy-obaidu/" className="text-white hover:text-gray-400">Connect With Me</a>
             </button>
         </div>
     </nav>
