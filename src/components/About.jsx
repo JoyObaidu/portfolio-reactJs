@@ -1,15 +1,15 @@
-import AboutImage from '../assets/aboutMe.jpg'
+import AboutImage from '../assets/aboutMe.jpeg'
 
 const About = () => {
   return (
     <div className='bg-black text-white text-center py-10' id='aboutme'>
     <div>
         <h2 className='text-4xl font-bold'>About Me</h2>
-        <div className='flex flex-col md:flex-row items-center md:items-start mt-6 px-4'>
+        <div className='flex flex-col md:flex-row items-center md:items-start mt-6 px-5'>
             <img 
                 src={AboutImage} 
-                alt="" 
-                className='w-40 h-40 md:w-100 md:h-100 mx-auto rounded-full object-cover transform transition-transform duration-300 mb-4 md:mb-0'
+                alt="my profile image" 
+                className='w-42 h-80 md:w-100 md:h-100 mx-auto rounded-md object-cover transform transition-transform duration-300 mb-4 md:mb-0'
             />
             
             <div className='space-y-4 md:ml-6'>
@@ -34,11 +34,17 @@ const About = () => {
                             <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full w-11/12'></div>
                         </div>
                     </div>
+                    <div className='flex items-center space-x-4'>
+                        <label className='w-20 text-left'>Javascript</label>
+                        <div className="flex-grow bg-gray-800 rounded-full h-2.5">
+                            <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full w-8/12'></div>
+                        </div>
+                    </div>
 
                     <div className='flex items-center space-x-4'>
                         <label className='w-20 text-left'>ReactJS</label>
                         <div className="flex-grow bg-gray-800 rounded-full h-2.5">
-                            <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full w-9/12'></div>
+                            <div className='bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full w-8/12'></div>
                         </div>
                     </div>
 
