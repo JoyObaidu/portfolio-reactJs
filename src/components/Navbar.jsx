@@ -11,9 +11,16 @@ const Navbar = () => {
                 <a href="#project" className='text-sm md:text-lg text-white hover:text-gray-400'>Projects</a>
                 <a href="#contact" className='text-sm md:text-lg text-white hover:text-gray-400'>Contacts</a>
             </div>
+            <div className="flex gap-2 mt-3">
             <button className='bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full' type="submit">
               <a href="https://www.linkedin.com/in/joy-obaidu/" className="text-white hover:text-gray-400">Connect With Me</a>
             </button>
+
+            <button className='bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full' type="submit">
+              <a href="https://github.com/JoyObaidu?tab=repositories" className="text-white hover:text-gray-400">My Github</a>
+            </button>
+            </div>
+           
         </div>
     </nav>
   )
