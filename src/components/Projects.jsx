@@ -8,21 +8,21 @@ const projects = [
         name: "SocialLinks vibes",
         image: sociallinkImage, 
         technologies: "HTML, CSS",
-        github: "https://github.com/JoyObaidu/Social-links-vibes.git",
+        github: "https://joyobaidu.github.io/Social-links-vibes/",
     },
     {
         id: 2,
         name: "Testimonial Grid section",
         image: testimonialImage,
         technologies: "HTML, CSS",
-        github: "https://github.com/JoyObaidu/Testimonial-Grid-Section.git",
+        github: "https://joyobaidu.github.io/Testimonial-Grid-Section/",
     },
     {
         id: 3,
         name: "Omelette Recipepage",
         image: omeletteRecipe,
         technologies: "HTML, CSS",
-        github: "https://github.com/JoyObaidu/Recipe-page.git",
+        github: "https://joyobaidu.github.io/Recipe-page/",
     },
 ];
 
