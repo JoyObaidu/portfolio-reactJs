@@ -26,7 +26,7 @@ const Hero = () => {
            <a href="https://drive.google.com/file/d/1MNQqImMFF6RurAuSI8iCuBAStLEoogg5/view?usp=drivesdk" className='text-gray-200  hover:text-white'>Resume</a> 
         </button>
         <button className='bg-gradient-to-r from-green-400 to-blue-500 text-white px-6 py-4 sm:px-4 rounded-full transform transition-transform duration-300 hover:scale-105'>
-           <a href="https://dev.to/joyobaidu" className='text-gray-200  hover:text-white'>DEV</a> 
+           <a href="https://dev.to/joyobaidu" className='text-gray-200  hover:text-white'>MY BLOG</a> 
         </button>
     </div>
 </div>
