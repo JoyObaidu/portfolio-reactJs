@@ -23,7 +23,7 @@ const Hero = () => {
            <a href="https://www.linkedin.com/in/joy-obaidu/" className='text-gray-200  hover:text-white'> Contact Me </a>
         </button>
         <button className='bg-gradient-to-r from-pink-500 to-yellow-500 text-white px-3 py-2 sm:px-4 rounded-full transform transition-transform duration-300 hover:scale-105'>
-           <a href="https://drive.google.com/file/d/1GXOPHITVSM2kdPFAvqxFMQ9u_7nuRuYL/view?usp=sharing" className='text-gray-200  hover:text-white'>Resume</a> 
+           <a href="https://drive.google.com/file/d/1MNQqImMFF6RurAuSI8iCuBAStLEoogg5/view?usp=drivesdk" className='text-gray-200  hover:text-white'>Resume</a> 
         </button>
         <button className='bg-gradient-to-r from-green-400 to-blue-500 text-white px-6 py-4 sm:px-4 rounded-full transform transition-transform duration-300 hover:scale-105'>
            <a href="https://dev.to/joyobaidu" className='text-gray-200  hover:text-white'>DEV</a> 
