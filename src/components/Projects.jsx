@@ -1,36 +1,36 @@
-import colorgame from '../assets/color-game.jpeg'
-import conferenceticketgenerator from '../assets/conference-ticket-generator.jpeg'
-import profilecard from '../assets/profile-card.jpeg'
-import textprocessor from '../assets/text-processor.jpeg'
+import studyPal from '../assets/studyPal.png'
+import pomodoroTimer from '../assets/Pomodoro Timer.png'
+import TenziesGame from '../assets/profile-card.jpeg'
+import ecommercePage from '../assets/ecommercepage.png'
 
 const projects = [
     {
         id: 1,
-        name: "Color Game",
-        image: colorgame, 
+        name: "Study Pal App",
+        image: studyPal, 
         technologies: "HTML, CSS, Javascript",
-        github: "https://color-game-virid-three.vercel.app/",
+        github: "https://study-pal-webapp-reactrouter.vercel.app/dashboard",
     },
     {
         id: 2,
-        name: "Conference Ticket Generator App",
-        image: conferenceticketgenerator,
+        name: "Pomodoro Timer",
+        image: pomodoroTimer,
         technologies: "react JS",
-        github: "https://conference-ticket-generator-kappa.vercel.app/",
+        github: "https://pomodoro-timer-react-tailwind-css.vercel.app/",
     },
     {
         id: 3,
-        name: "Profile Card",
-        image: profilecard,
+        name: "Tenzies Game",
+        image: TenziesGame,
         technologies: "HTML, CSS, Javascript",
-        github: "https://profile-card-eight-wheat.vercel.app/",
+        github: "https://tenzies-game-ochre-sigma.vercel.app/",
     },
     {
-        id: 3,
-        name: "AI Text Processor",
-        image: textprocessor,
+        id: 4,
+        name: "Ecommerce Page",
+        image: ecommercePage,
         technologies: "HTML, CSS, Javascript",
-        github: "https://text-processor-iota.vercel.app/",
+        github: "https://ecommerce-product-page-jet-nine.vercel.app/",
     },
 ];
 
